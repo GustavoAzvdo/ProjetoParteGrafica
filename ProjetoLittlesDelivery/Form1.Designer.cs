@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -38,13 +37,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 245);
+            this.textBox1.Location = new System.Drawing.Point(112, 234);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(146, 20);
             this.textBox1.TabIndex = 0;
@@ -52,7 +50,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 197);
+            this.textBox2.Location = new System.Drawing.Point(112, 186);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(146, 20);
             this.textBox2.TabIndex = 1;
@@ -63,7 +61,7 @@
             this.labelUser.AutoSize = true;
             this.labelUser.BackColor = System.Drawing.Color.Transparent;
             this.labelUser.Font = new System.Drawing.Font("Skranji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUser.Location = new System.Drawing.Point(6, 190);
+            this.labelUser.Location = new System.Drawing.Point(12, 179);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(97, 29);
             this.labelUser.TabIndex = 2;
@@ -75,7 +73,7 @@
             this.labelSenha.AutoSize = true;
             this.labelSenha.BackColor = System.Drawing.Color.Transparent;
             this.labelSenha.Font = new System.Drawing.Font("Skranji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSenha.Location = new System.Drawing.Point(26, 238);
+            this.labelSenha.Location = new System.Drawing.Point(32, 227);
             this.labelSenha.Name = "labelSenha";
             this.labelSenha.Size = new System.Drawing.Size(77, 29);
             this.labelSenha.TabIndex = 3;
@@ -87,7 +85,7 @@
             this.labelLittlesDelivery.BackColor = System.Drawing.Color.Transparent;
             this.labelLittlesDelivery.Font = new System.Drawing.Font("Skranji", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLittlesDelivery.ForeColor = System.Drawing.Color.OrangeRed;
-            this.labelLittlesDelivery.Location = new System.Drawing.Point(15, 68);
+            this.labelLittlesDelivery.Location = new System.Drawing.Point(102, 32);
             this.labelLittlesDelivery.Name = "labelLittlesDelivery";
             this.labelLittlesDelivery.Size = new System.Drawing.Size(143, 47);
             this.labelLittlesDelivery.TabIndex = 4;
@@ -98,7 +96,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Skranji", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(38, 115);
+            this.label1.Location = new System.Drawing.Point(106, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 47);
             this.label1.TabIndex = 5;
@@ -107,7 +105,7 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.DarkSalmon;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(131, 284);
             this.btnLogin.Name = "btnLogin";
@@ -125,18 +123,12 @@
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 7;
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "hamburger-png-desenho-Fundo-transparente-grátis-_1_.ico");
-            // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Location = new System.Drawing.Point(165, 27);
+            this.panel1.Location = new System.Drawing.Point(16, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(89, 88);
+            this.panel1.Size = new System.Drawing.Size(84, 82);
             this.panel1.TabIndex = 8;
             // 
             // Login
@@ -176,7 +168,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Panel panel1;
     }
 }
