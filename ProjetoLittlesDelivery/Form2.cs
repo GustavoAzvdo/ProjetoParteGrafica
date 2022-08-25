@@ -10,27 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjetoLittlesDelivery
 {
-    public partial class Login : Form
+    public partial class Form2 : Form
     {
-        public Login()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.Show();
         }
     }
 }
