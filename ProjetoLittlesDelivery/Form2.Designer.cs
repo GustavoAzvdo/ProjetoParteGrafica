@@ -49,7 +49,7 @@
             // 
             this.btnEstoque.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstoque.Location = new System.Drawing.Point(559, 0);
+            this.btnEstoque.Location = new System.Drawing.Point(125, 189);
             this.btnEstoque.Name = "btnEstoque";
             this.btnEstoque.Size = new System.Drawing.Size(104, 70);
             this.btnEstoque.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.btnCliente.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliente.Location = new System.Drawing.Point(-1, 0);
+            this.btnCliente.Location = new System.Drawing.Point(12, 37);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(104, 70);
             this.btnCliente.TabIndex = 0;
@@ -71,7 +71,7 @@
             // 
             this.btnEndereco.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEndereco.Location = new System.Drawing.Point(109, 0);
+            this.btnEndereco.Location = new System.Drawing.Point(12, 113);
             this.btnEndereco.Name = "btnEndereco";
             this.btnEndereco.Size = new System.Drawing.Size(104, 70);
             this.btnEndereco.TabIndex = 0;
@@ -82,7 +82,7 @@
             // 
             this.btnItensProdutos.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnItensProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItensProdutos.Location = new System.Drawing.Point(779, 0);
+            this.btnItensProdutos.Location = new System.Drawing.Point(125, 265);
             this.btnItensProdutos.Name = "btnItensProdutos";
             this.btnItensProdutos.Size = new System.Drawing.Size(104, 70);
             this.btnItensProdutos.TabIndex = 0;
@@ -93,7 +93,7 @@
             // 
             this.btnItensVendidos.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnItensVendidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItensVendidos.Location = new System.Drawing.Point(669, 0);
+            this.btnItensVendidos.Location = new System.Drawing.Point(12, 265);
             this.btnItensVendidos.Name = "btnItensVendidos";
             this.btnItensVendidos.Size = new System.Drawing.Size(104, 70);
             this.btnItensVendidos.TabIndex = 0;
@@ -104,7 +104,7 @@
             // 
             this.btnProdutos.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProdutos.Location = new System.Drawing.Point(449, 0);
+            this.btnProdutos.Location = new System.Drawing.Point(12, 189);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(104, 70);
             this.btnProdutos.TabIndex = 0;
@@ -115,7 +115,7 @@
             // 
             this.btnVenda.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnVenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVenda.Location = new System.Drawing.Point(329, 0);
+            this.btnVenda.Location = new System.Drawing.Point(125, 113);
             this.btnVenda.Name = "btnVenda";
             this.btnVenda.Size = new System.Drawing.Size(104, 70);
             this.btnVenda.TabIndex = 0;
@@ -126,7 +126,7 @@
             // 
             this.btnTelefone.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTelefone.Location = new System.Drawing.Point(219, 0);
+            this.btnTelefone.Location = new System.Drawing.Point(125, 37);
             this.btnTelefone.Name = "btnTelefone";
             this.btnTelefone.Size = new System.Drawing.Size(104, 70);
             this.btnTelefone.TabIndex = 1;
@@ -165,7 +165,7 @@
             // txtFaturamento
             // 
             this.txtFaturamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFaturamento.Location = new System.Drawing.Point(225, 507);
+            this.txtFaturamento.Location = new System.Drawing.Point(513, 47);
             this.txtFaturamento.Name = "txtFaturamento";
             this.txtFaturamento.Size = new System.Drawing.Size(145, 34);
             this.txtFaturamento.TabIndex = 5;
@@ -173,7 +173,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(388, 515);
+            this.dateTimePicker1.Location = new System.Drawing.Point(307, 100);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(287, 22);
             this.dateTimePicker1.TabIndex = 6;
@@ -182,7 +182,7 @@
             // 
             this.labelFaturamento.AutoSize = true;
             this.labelFaturamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFaturamento.Location = new System.Drawing.Point(15, 515);
+            this.labelFaturamento.Location = new System.Drawing.Point(303, 59);
             this.labelFaturamento.Name = "labelFaturamento";
             this.labelFaturamento.Size = new System.Drawing.Size(204, 22);
             this.labelFaturamento.TabIndex = 7;
@@ -207,9 +207,11 @@
             this.Controls.Add(this.btnEndereco);
             this.Controls.Add(this.btnCliente);
             this.Controls.Add(this.btnEstoque);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Menu";
             this.ResumeLayout(false);
             this.PerformLayout();
 
