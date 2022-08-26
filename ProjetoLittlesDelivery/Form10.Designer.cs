@@ -254,7 +254,7 @@
             this.Controls.Add(this.btnVoltar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form10";
-            this.Text = "Form10";
+            this.Text = "Estoque";
             this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
